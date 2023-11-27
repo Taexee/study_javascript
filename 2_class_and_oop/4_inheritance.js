@@ -17,14 +17,14 @@ class StudentModel {
 class FemaleStudentModel extends StudentModel{
   // 상속을 받을땐 프로퍼티와 생성자도 함께 상속
   sing() {
-    return `${this.name}이 노래를 부릅니다.`
+    return `여자 학생이 노래를 부릅니다.`
   }
 }
 
 class MaleStudentModel extends StudentModel{
   // 상속을 받을땐 프로퍼티와 생성자도 함께 상속
   dance() {
-    return `${this.name}이 춤을 춥니다.`
+    return `남자 학생이 춤을 춥니다.`
   }
 }
 
